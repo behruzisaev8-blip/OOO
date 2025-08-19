@@ -1,0 +1,30 @@
+body {
+  background-color: rgb(0, 200, 200);
+}
+
+.TY {
+  text-align: center;   /* центрирует содержимое */
+}
+
+h1 {
+  background-color: rgb(80, 33, 0);
+  color: aliceblue;
+  display: inline-block;  /* фон только под текстом */
+  padding: 5px 10px;
+  margin: 0;              /* убрали авто-маргины, они тут не нужны */
+}
+.box {
+    width: 80%;
+    max-width: 600px;        /* чтобы не было слишком широко */
+    border: 10px solid red;
+    background-color: black;
+    margin: 50px auto;
+    padding: 40px;
+    box-sizing: border-box;
+}
+p{
+    background-color: aquamarine;
+    padding: 30px 0;
+    margin-top: 0%;
+}
+
